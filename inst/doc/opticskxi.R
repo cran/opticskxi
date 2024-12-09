@@ -1,5 +1,4 @@
 ### R code from vignette source 'opticskxi.Rnw'
-### Encoding: UTF-8
 
 ###################################################
 ### code chunk number 1: opticskxi.Rnw:61-62

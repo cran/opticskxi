@@ -1,7 +1,8 @@
 
 if (getRversion() >= "2.15.1") {
   c('.', 'x', 'rotation', 'sdev', 'DIMRED_VARTYPE', 'value', 'Var2',
-    'dim_red', 'dist', 'n_xi', 'pts') %>% utils::globalVariables()
+    'dim_red', 'dist', 'n_xi', 'pts', 'n_dimred_comp', 'n_clusters') %>%
+    utils::globalVariables()
 }
 
 #' Print table
@@ -32,7 +33,7 @@ print_table <- function(table_obj, label) {
 residuals_table <- function(...) {
   stats::chisq.test(...)$stdres %>%
     `colnames<-`(paste('Residuals:', colnames(.))) %>% round(2) %>%
-    rbind(matrix(NA, 2, 2)) %>% cbind(contingency_table(...), .)
+    rbind(matrix(NA, 2, ncol(.))) %>% cbind(contingency_table(...), .)
 }
 
 #' Contingency table
