@@ -22,7 +22,7 @@
     ggpairs(group = 'Clusters')
 
   cowplot::plot_grid(gg_shapes, gg_ds3, nrow = 2,
-    labels = c('(a)', '(b)'), label_x = 0.9)
+                     labels = c('(a)', '(b)'), label_x = 0.9)
 
 
 ###################################################
@@ -93,7 +93,7 @@
   clusters_hla <- best_kxi_hla$clusters
 
   hla$id %<>% `levels<-`(c('Controls', 'Sch. patients'))
-  residuals_table(clusters_hla, hla$id) %>% print_table('HLA')
+  residuals_table(clusters_hla, hla$id) %>% print_vignette_table('HLA')
 
 
 ###################################################
@@ -122,13 +122,14 @@
 
 
 ###################################################
-### code chunk number 13: opticskxi.Rnw:299-304
+### code chunk number 13: opticskxi.Rnw:299-305
 ###################################################
   best_kxi_crohn <- get_best_kxi(df_kxi_crohn, rank = 1)
   clusters_crohn <- best_kxi_crohn$clusters
 
   crohn$crohn %<>% factor %>% `levels<-`(c('Controls', 'Crohn patients'))
-  residuals_table(clusters_crohn, crohn$crohn) %>% print_table('Crohn')
+  residuals_table(clusters_crohn, crohn$crohn) %>%
+    print_vignette_table('Crohn')
 
 
 ###################################################
