@@ -1,8 +1,8 @@
-6db2cc40731105b71dbdf07213f0256f *DESCRIPTION
-3748f571b182d1a3933782445bb3d1a5 *NAMESPACE
+ba15225b30d8cb0be4869276f82a07e7 *DESCRIPTION
+0a6fb75db72ae1080eea1e6761f63b19 *NAMESPACE
 245aa1c8dc05045412ac2678978ca3b3 *NEWS.md
 45bf975a0128bac9e5539b703e76d973 *R/dimred.R
-4f4f4830f9e4e4b3dc3dbfc140319983 *R/dist_matrix.R
+00351a83f25f96726239d6bc5b646819 *R/dist_matrix.R
 37085f6d7ea557b511aabb91f4550af4 *R/ensemble_models.R
 6c82d7c8a754aa384e869ead001e88ee *R/ggpairs.R
 32bd3433462eaa2ff5b4b234986a4c9a *R/m_psych_embeds.R
@@ -10,7 +10,7 @@
 b0df01291629d6389b71a72c93e26d82 *R/optics_plots.R
 b41865c08d33b8c09185631bcc7655f6 *R/opticskxi.R
 b5f9b09da1ccd2e0353163a0e4f266a6 *R/opticskxi_pipeline.R
-1e373a995b5c66ca4993a4eed7e46969 *R/package.R
+3ba99af9e02655c2b9f69ceda261c3c5 *R/package.R
 32ee8b2c672289bebd491d8acfa552c8 *R/rm_huge_clusters.R
 16325cb1f7579e906c16bf238774f007 *R/utils.R
 becab4e741347819cc95d3916830ebfa *build/vignette.rds
@@ -20,10 +20,10 @@ e1487efcc984262d8a6ebdf03e66264f *data/hla.rda
 796a8ea8558430e0314c6587e84924ca *data/multishapes.rda
 ce81ff131e3ed7c5805cceaf8e2a87f9 *inst/doc/ensemble_metrics.R
 bce6dd1345c250b02f7ddd7aaf2f37dd *inst/doc/ensemble_metrics.Rnw
-e8492b3a9593fbc51c17c23cc6eae517 *inst/doc/ensemble_metrics.pdf
+2106e40b54ac55f5ef15cac879e857f2 *inst/doc/ensemble_metrics.pdf
 174acc4452692c635b14527c7384e7d8 *inst/doc/opticskxi.R
 300b08651d64259735590d516677cafb *inst/doc/opticskxi.Rnw
-183a902f610d978c012ab90518ae1c52 *inst/doc/opticskxi.pdf
+e9a87189c1232159364405fd3d13377e *inst/doc/opticskxi.pdf
 5e04253aa761205645c7ebab924c8a76 *inst/scripts/psych_kxi_example.R
 63267a3fe88000663d4b87b5d15ac08c *man/compound.Rd
 6035c7265ac9d8c9fea379e567809d03 *man/contingency_table.Rd
@@ -47,6 +47,7 @@ de57452b558efd8c99ba54923fcb1028 *man/hla.Rd
 53123acd4aa3cc331587d1ed7c06297e *man/multishapes.Rd
 d685e902551fd826a99d5a249123b10a *man/nice_palette.Rd
 94c397500fbbaa1f5a9ad891b6489559 *man/norm_inprod.Rd
+75eac41dffb6d2edb1b24661e4fbf2be *man/normalize.Rd
 064d88663c06b369e8be0a80d4a207ca *man/opticskxi.Rd
 dc0ff09da7499de60e08d3df1fb8968f *man/opticskxi_pipeline.Rd
 0ad7fad0e2935830cfa0d323a2642ec4 *man/pipe.Rd
@@ -54,7 +55,6 @@ c2813ebcdee9b4647665590ea9d4ce90 *man/print_vignette_table.Rd
 1fc4136a3aeef6cee8a6aca11f89f2bb *man/residuals_table.Rd
 88511fd4ec674c5da6caad8d69511664 *man/stddev_mean.Rd
 6a56df741e62175b111b3a0d59923d98 *tests/testthat.R
-70955a5fe9027d66467de2ff74daf030 *tests/testthat/Rplots.pdf
 1b2cd8eb576d39110164c9128145feab *tests/testthat/test-dimred.R
 1048a5b79d5b60984600150b223320db *tests/testthat/test-ensemble.R
 e03edb62f74ba4ab9ec3133a24a8bc20 *tests/testthat/test-ggpairs.R
